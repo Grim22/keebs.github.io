@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat&family=Noto+Sans+Mono:wght@900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Check Out</title>
+</head>
+<body>
+      <!--NAVIGATION BAR-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid" id="nav-container">
+      <a class="navbar-brand" href="index.html"><img class="img-fluid" id="logo" src="KEEBS!/logo1.png" alt=""></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="keyboard.html">Keyboards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="switches.html">Switches</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="keycaps.html">Keycaps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="case.html">Case</a>
+          </li>
+          <div class="icons-container1">
+            <a href="cart.html"><img class="cart" src="KEEBS!/shopping-cart.svg" alt=""></a>
+            <a href=""><img class="user" src="KEEBS!/user.svg" alt=""></a>
+            <a href=""><img class="user" src="KEEBS!/search.svg" alt=""></a>
+        </div>
+        </ul>
+      </div>
+      <div class="icons-container">
+        <a href="cart.html"><img class="cart" src="KEEBS!/shopping-cart.svg" alt=""></a>
+        <a href=""><img class="user" src="KEEBS!/user.svg" alt=""></a>
+        <a href=""><img class="user" src="KEEBS!/search.svg" alt=""></a>
+    </div>
+    </div>
+  </nav>
+  
+  <!--MAIN-->
+  <main>
+      <div class="container-fluid" id="main-container">
+          <div class="container-fluid" id="cart-section">
+              <div class="container-fluid" id="h3-container">
+                  <h3>Shopping Cart</h3>
+              </div>
+              <br>
+              <!--GRID-->
+              <div class="container text-center" id="grid">
+                  <div class="row row-cols-4">
+                  <div class="col" id="products">Product
+                  </div>
+                  <div class="col" id="product-names">Product Name
+                  </div>
+                  <div class="col" id="prices">Price
+                  </div>
+                  <div class="col" id="totals">Total
+                  </div>
+
+                  <div class="col" id="picture">
+                    <img  class="img-fluid" src="KEYBOARDS/s1.jpg" alt="">
+                  </div>
+                  <div class="col" id="name">CHEESE MOCHA LINEAR SWITCHES<br>(50 pcs)</div>
+                  <div class="col" id="price">$1.50</div>
+                  <div class="col" id="total">$75.00</div>
+
+
+                  <div class="col" id="picture">
+                      <img class="img-fluid" src="KEYBOARDS/skc1.jpg" alt="">
+                  </div>
+                  <div class="col" id="name">PBTFANS MISCHIEF</div>
+                  <div class="col" id="price">$14.50</div>
+                  <div class="col" id="total">$14.50</div>
+
+
+                  <div class="col" id="picture">
+                    <img  class="img-fluid" src="KEYBOARDS/sc1.jpg" alt="">
+                </div>
+                <div class="col" id="name">65% WOODEN CASE AND WRIST</div>
+                <div class="col" id="price">$45.00</div>
+                <div class="col" id="total">$45.00</div>
+                  
+                <div class="col" id="total"></div>
+                <div class="col" id="total"></div>
+                <div class="col" id="grand-total">GRAND TOTAL:</div>
+                <div class="col" id="grand">$179.5 + (Shipping Fee)</div>
+                  </div>
+              </div>
+        </div>
+        <div class="container-fluid" id="form-section">
+            <div class="container-fluid" id="form-container">
+                <div class="container-fluid" id="form">
+                    <h5>BILLING ADDRESS</h5>
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Complete Address">
+                    <br>
+                    <input type="text" placeholder="Email Address">
+                    <input type="text" placeholder="Telephone">
+                    <br>
+                </div>
+                <h5>PAYMENT OPTIONS</h5>
+                <br>
+                <div class="container-fluid" id="payment-container">
+                  <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                  <label class="btn btn-light" for="option1"><img class="img-fluid" src="KEYBOARDS/card1.png" alt=""></label>
+                  
+                  <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                  <label class="btn btn-light" for="option2"><img class="img-fluid" src="KEYBOARDS/card2.png" alt=""></label>
+                  
+                  <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                  <label class="btn btn-light" for="option3"><img class="img-fluid" src="KEYBOARDS/card3.png" alt=""></label>
+                  
+                  <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+                  <label class="btn btn-light" for="option4"><img class="img-fluid" src="KEYBOARDS/card4.png" alt=""></label>
+
+                  <input type="radio" class="btn-check" name="options" id="option5" autocomplete="off">
+                  <label class="btn btn-light" for="option4"><img class="img-fluid" src="KEYBOARDS/card5.png" alt=""></label>
+                </div>
+                    <h5>SELECT SHIPPING METHOD</h5>
+                <div class="container-fluid" id="shipping">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      Standard Shipping $6.00
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                      Express Shipping  $10.00
+                    </label>
+                  </div>
+                </div>
+                <div class="add-to-cart">
+                  <button class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <span>CHECK OUT</span>
+                  </button>
+              </div>
+
+              <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">PURCHASE SUCCESSFUL!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Gratitude for choosing us as your destination for a delightful shopping experience!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </div>
+      </div>
+
+  </main>
+
+</body>
+<footer>
+    <div class="container-fluid" id="footer-icons">
+        <a href="https://www.facebook.com/" target="_blank"><img class="img-fluid" src="KEYBOARDS/facebook.svg" alt=""></a>
+        <a href="https://www.instagram.com/" target="_blank"><img class="img-fluid" src="KEYBOARDS/instagram.svg" alt=""></a>
+        <a href="https://www.twitter.com/" target="_blank"><img class="img-fluid" src="KEYBOARDS/twitter.svg" alt=""></a>
+        <a href="https://www.youtube.com/" target="_blank"><img class="img-fluid" src="KEYBOARDS/youtube.svg" alt=""></a>
+    </div>
+    <div class="container-fluid" id="text">
+      <p>ALL RIGHTS RESERVED &copy 2023.</p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+</script>
+</html>

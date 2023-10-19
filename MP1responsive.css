@@ -1,0 +1,266 @@
+
+
+@media (max-width:400px){
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  #hero{
+    height: auto;
+    
+  }
+  /*FIRST SECTION*/
+  #split{
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  #heading h3{
+    width: 130%;
+    height: auto;
+    
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  #heading h5{
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  #heading{
+    width: 100%;
+  }
+  #carouselExampleInterval{
+    width: 100%;
+    height: 50vh;
+    margin-top: 7vh;
+    margin-left: 15vw;
+  }
+  .carousel-item{
+    width: 100%;
+    height: 50vh;
+  }
+  .carousel{
+    
+  }
+  .carousel-inner{
+    width: 100%;
+    height: auto;
+  }
+
+  /*SECTION 2*/
+  #column-container{
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  #col1{
+    width: 80%;
+    height: 40vh;
+    padding: 0;
+    margin: 0;
+    background-image: url(KEEBS!/col1.jpg);
+    background-size: cover;
+    border-radius: 40px;
+  }
+  
+  
+  #col2{
+    background-color:  #F6D0AC;
+    width: 80%;
+    height: auto;
+    height: 60vh;
+    margin: 0;
+    border-radius: 40px;
+  }
+  
+  #col3{
+    background-color: #F6D0AC;
+    width: 80%;
+    height: auto;
+    height: 60vh;
+    margin: 0;
+    border-radius: 40px;
+  }
+  
+  #col1 p{
+    font-size: 2.5rem;
+    margin-left: 20px;
+    color: #291605;
+    line-height: 5vh;
+    margin-top: 1vh;
+  } 
+  
+  #col1 span p{
+    color: #c16815;
+    margin-top: -1.5vh;
+  }
+  
+  #col2 .key{
+    font-size: 2rem;
+    margin: 0;
+    color: #c16815;
+
+  }
+  
+  #col2 .case{
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1vh;
+    color: #291605;
+  }
+  
+  #col2 img{
+    width: 100%;
+    height: auto;
+    margin-top: 2vh;
+    margin-left: 10px;
+  }
+  
+  #col3 img{
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+  }
+  
+  #col3 .key{
+    margin: 0;
+    font-size: 2rem;
+    margin-top: 7vh;
+    color: #291605;
+  }
+  
+  #col3 .switch{
+    margin: 0;
+    font-size: 2rem;
+    margin-top: -3vh;
+    color: #c16815;
+  }
+  
+  .button {
+    width: 90px;
+    padding: 0;
+    border: none;
+    transform-origin: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 #494a4b;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: #c16815;
+  
+    margin-top: 3vh;
+    margin-left: 8px;
+  }
+  
+  .button span {
+    background: #f6d0ac;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #494a4b;
+  }
+  
+  .button:active {
+    transform: translateY(5px);
+    padding-bottom: 0px;
+    outline: 0;
+  }
+  
+  .right-section #logo{
+    width: auto;
+    height: 15vh;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  
+  #case{
+    width: auto;
+    height: 35vh;
+    padding: 0;
+    margin-left: 60px;
+    overflow: hidden;
+  }
+  
+  /*SECTION 3*/
+
+  .mission{
+    background-color:#F6D0AC;
+    height: 190vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aboutus h1{
+    color: #291605;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-left: 3vw;
+  }
+  
+  .card{
+    background-color: #F6D0AC;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-width: 2px;
+    border-style: dashed;
+    
+  }
+  
+  .card-body{
+    color: #291605;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .container-carousel{
+    width: 80%;
+    height: 50vh;
+    border-radius: 10%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    background-color: none;
+  }
+  
+  .container img{
+    height: 60vh;
+    width: 80%;
+  }
+  
+  .mission .heading{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .mission h3{
+    color: #291605;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    line-height: 5vh;
+  }
+  
+  .container-carousel, #carouselExampleInterval{
+    width: 95%;
+    height: 50vh;
+  }
+  
+  footer{
+    margin-top: 212vh;
+  }
+}
